@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: .2s;
+    border: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #CFCFCF;
+    background-color: #111111;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px;
+}
+
+form input,
+form button {
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+
+form input {
+    border: 1px solid tomato;
+    background-color: #dfdfdf2d;
+}
+
+form button {
+    background-color: tomato;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: rgb(255, 77, 46);
+    cursor: pointer;
+}
+
+table {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+table tbody tr:hover {
+    background-color: rgba(255, 99, 71, 0.39);
+}
+
+table th {
+    color: tomato;
+}
+
+table td {
+    border-bottom: 1px solid #111111;
+    text-align: center;
+    padding: 8px 4px;
+    text-transform: capitalize;
+}
+
+table tbody td {
+    background-color: rgba(255, 99, 71, 0.308);
+}
+
+table tfoot td {
+    text-transform: none;
+}
