@@ -1,4 +1,4 @@
-# Loja Smartphones
+# Agenda de contatos
 Projeto desenvolvido durante curso Engenheiro de Front-end da EBAC, com HTML, CSS e JQuery.
 
 # Resultado 📌
